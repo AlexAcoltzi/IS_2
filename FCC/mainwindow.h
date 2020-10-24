@@ -13,6 +13,8 @@
 #include <QTableWidgetItem>
 #include<QtCore>
 #include<QtGui>
+#include <QVBoxLayout>
+#include <QScrollArea>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -71,6 +73,18 @@ private slots:
     void on_cerrar_sesion_2_clicked();
 
     void on_pushButton_clicked();
+
+    void on_inscribitButton_clicked();
+
+    void on_mater1_clicked();
+
+    void on_cambiarpass_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void limpiartabmatnom();
+
+    void on_searchmat_clicked();
 
 private:
     QString matricula, pass;

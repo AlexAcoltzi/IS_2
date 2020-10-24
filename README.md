@@ -1,1 +1,2 @@
-# IS_2
+# LoboServicesFCC
+Proyecto SCRUM IS II
